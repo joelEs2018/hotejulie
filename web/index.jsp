@@ -9,10 +9,21 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="CSS/style.css">
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Notre première page</h1>
-        <h1>Je m'appelle kevin </h1>
+        <header>
+            <%-- Dans le Header, il y aura image, menu connexion/navigation 
+            <img src="images/header_background_1.png">--%>
+        </header>
+
+        <section>
+            zdzz
+        </section>
+
+        <footer>
+            <%-- Dans le Footer, il y aura les mention légales... --%>dzd
+        </footer>
     </body>
 </html>
