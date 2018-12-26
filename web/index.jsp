@@ -9,21 +9,33 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link rel="stylesheet" href="CSS/style.css">
         <title>JSP Page</title>
+        <%@include file="head.jsp" %>
     </head>
-    <body>
-        <header>
-            <%-- Dans le Header, il y aura image, menu connexion/navigation 
-            <img src="images/header_background_1.png">--%>
-        </header>
+    <body style="background: rgb(255,0,0,0);">
+        <%-- Dans le Header, il y aura image, menu connexion/navigation--%>
 
-        <section>
-            zdzzppppp
-        </section>
 
-        <footer>
-            <%-- Dans le Footer, il y aura les mention légales... --%>dzd
-        </footer>
+        <br />
+
+        <%@include file="menu.jsp" %>
+
+        <br />
+
+        <div class="row">
+            <div class="col-md-9">
+                <section >
+                    <%@include file="Carousel.jsp" %>
+                </section>
+            </div>
+        </div>
+
+        <br />
+
+        <div class="row">
+            <div class="col-md-9">
+                <%@include file="footer.jsp" %>
+            </div>
+        </div>
     </body>
 </html>

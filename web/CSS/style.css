@@ -9,9 +9,43 @@ and open the template in the editor.
 */
 
 html {
-    background-image: url("../images/background.png");
+    background: url("../images/wall.jpg") no-repeat;
+    height:100%;
 }
 
-section {
-    color: blue;
+body {
+    height: 100%;
+    margin:0;
+    padding:0;
+    min-height: 100%;
+    position: relative;
+}
+
+/*header{
+    background: #998B7D;
+    height: 50px;
+}*/
+
+footer{
+    background: #e2e2e2;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+/*.content{
+    padding-bottom: 50px;
+}*/
+
+@media screen and (max-width: 1600px)
+{
+    html{
+        background-image:url("../images/wall.jpg");
+    }
+}
+
+#calendar {
 }

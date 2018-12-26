@@ -13,16 +13,14 @@ public class Formule {
 
     private int idForm;
     private String nomForm;
-    private String chambreForm;
+    private String information;
     private int tarif;
-    private int idCham;
 
-    public Formule(int idForm, String nomForm, String chambreForm, int tarif, int idCham) {
+    public Formule(int idForm, String nomForm, String information, int tarif) {
         this.idForm = idForm;
         this.nomForm = nomForm;
-        this.chambreForm = chambreForm;
+        this.information = information;
         this.tarif = tarif;
-        this.idCham = idCham;
     }
 
     public int getIdForm() {
@@ -41,12 +39,12 @@ public class Formule {
         this.nomForm = nomForm;
     }
 
-    public String getChambreForm() {
-        return chambreForm;
+    public String getInformation() {
+        return information;
     }
 
-    public void setChambreForm(String chambreForm) {
-        this.chambreForm = chambreForm;
+    public void setInformation(String information) {
+        this.information = information;
     }
 
     public int getTarif() {
@@ -55,13 +53,5 @@ public class Formule {
 
     public void setTarif(int tarif) {
         this.tarif = tarif;
-    }
-
-    public int getIdCham() {
-        return idCham;
-    }
-
-    public void setIdCham(int idCham) {
-        this.idCham = idCham;
     }
 }
